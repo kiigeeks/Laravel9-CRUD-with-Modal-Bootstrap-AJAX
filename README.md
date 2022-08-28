@@ -62,3 +62,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Laravel9 - AJAX CRUD
+- Laravel9 with Bootstrap
+- Factory Faker 
+- N+1 Problem
+- MYSQL (DBMS)
+- CRUD with Upload Image
+- jQuery - Ajax
+- DataTable
+
+
+### Special Thanks to ...
+- https://www.youtube.com/watch?v=z8cCuWz_fYA
+- https://www.youtube.com/watch?v=JTan8xADnQU
+
+### Package
+- https://sweetalert.js.org/guides/
+- https://getbootstrap.com/
+- https://datatables.net/
