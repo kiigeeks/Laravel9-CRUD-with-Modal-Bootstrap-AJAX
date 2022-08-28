@@ -16,21 +16,6 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-// Route::controller(DashboardController::class)->group(function(){
-//     Route::get('/', 'index')->name('dashboard');
-//     Route::get('/fetch', 'fetch')->name('fetch.data');
-//     Route::get('/create', 'create')->name('add.data');
-//     Route::post('/store', 'store')->name('save.plants');
-// });
-
-// Route::resource('/', DashboardController::class);
-// Route::get('/', [DashboardController::class, 'index']);
-// Route::get('/fetch', [DashboardController::class, 'fetch']);
-// Route::get('/create', [DashboardController::class, 'create'])->name('add.data');
-// Route::post('/store', [DashboardController::class, 'store'])->name('save.plants');
-// Route::resource('/category', CategoryController::class);
-
-
 Route::get('/', [DashboardController::class, 'index'])->name('plants');
 Route::get('/fetch', [DashboardController::class, 'fetch'])->name('getall.plants');
 Route::get('/show', [DashboardController::class, 'show'])->name('detail.plants');
